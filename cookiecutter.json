@@ -1,0 +1,10 @@
+{
+    "project_name": "my_project",
+    "description": "Behold My Awesome Project!",
+    "author_name": "Daniel Arevalo",
+    "domain_name": "example.com",
+    "email": "{{ cookiecutter.author_name.lower()|replace(' ', '-') }}@example.com",
+    "version": "0.1.0",
+    "timezone": "America/Bogota",
+    "debug": "n"
+}
